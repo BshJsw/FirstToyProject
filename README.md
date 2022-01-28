@@ -17,7 +17,7 @@ gitconfig: git 설치 후 초기 환경 설정
 
 branch 생성 : 
 ``` bash
-git branch -b <branch name>
+git branch <branch name>
 ```
 
 branch 이동 : 
