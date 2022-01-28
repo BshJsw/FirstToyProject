@@ -27,6 +27,7 @@ git status:
 git clone 명령어로 원격 저장소와 연결이 되었다면, Local에는 다음과 같이 세 가지 영역이 존재합니다.
 
 Working Directory: 현재 작업중인 공간
+https://dimdim.tistory.com/entry/GIT%EC%97%90-%EB%8C%80%ED%95%9C-%EB%82%B4%EC%9A%A9%EC%A0%95%EB%A6%AC-%EC%A0%95%EB%A6%AC%EC%A4%91
 
 Staging Area(Index Area): Working Directory에 작업한 파일을 commit 이전에 담는 공간 그리고 git add 명령어로 추가한 파일들이 등록되는 공간
 
