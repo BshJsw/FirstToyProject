@@ -7,10 +7,13 @@
 git clone :
 git clone 명령어는 특정 레포지토리에서 최신 버전의 전체 파일을 로컬에 복제합니다. 일반적으로 레포지토리 복제는 최초 한 번만 수행하며, 다시 복제할 필요가 없습니다.
 사용 방법은 다음과 같이 사용하며 'git clone' 명령어 뒤에 복제하고자하는 레포지토리 url을 작성합니다.
-
 ``` bash
 git clone <레포지토리 URL>
 ```
+gitconfig: git 설치 후 초기 환경 설정
+1. gitconfig --global user.name dimdim  ==> 작업자 이름 설정
+2. gitconfig --global user.email dimdim@test.com  ==> 작업자 email 설정
+3. gitconfig --global --list ==> 설정값 확인
 
 branch 생성 : 
 ``` bash
@@ -48,6 +51,11 @@ git pull: 다른 사람이 내용을 변경했다면 develop branch 가 수정�
 ``` bash
 git pull origin <branch name>
 ```
+
+나는 터미널로 작업을 했기 때문에...
+git status로 상황을 보고, restore 할 것과 add 할 것을 나눠서 작업 후, commit 한 다음에 push 를 하고 ( 내 branch는 나말고 안건들기 때문에 push하면 충돌없이 들어감 )
+후에 develop 브랜치로 이동 한 후 (git checkout develop) git pull origin develop으로 최신으로 받은 후에 git merge <branch name> 으로 하면 ...
+(테스트 해 보고 수정하겠음)
 
 
 
