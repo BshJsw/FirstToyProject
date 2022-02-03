@@ -1,7 +1,5 @@
 # FirstToyProject
 
-sewon test
-
 ## 마크다운
 
 마크다운(md file) 작성 가이드 : https://gist.github.com/ihoneymon/652be052a0727ad59601
